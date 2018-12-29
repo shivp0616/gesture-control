@@ -44,6 +44,7 @@ while True:
 
         #if prediction is 0, which means I am missing on the image, then show the frame in gray color.
         if prediction == 0  :
+                #virtual key press
                 pyautogui.press('space')
                 frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
