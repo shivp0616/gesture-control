@@ -7,4 +7,4 @@ We are using CNN for the image prediction.
 
 To access the webcam, we are using opencv.
 
-There are some files missing right now. Very soon I'll update this repo.
+First you have to train your model using the train.py file. Then run the main.py file
